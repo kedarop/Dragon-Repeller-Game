@@ -28,3 +28,30 @@ You can play the latest version of the game directly in your browser by clicking
 If you want to view the code or run the game on your own machine:
 
 1. **Clone the Repository:**
+2. **Open the Files:** Open the `index.html` file in your preferred web browser.
+
+### 📜 Version History
+
+* **Version 1.1**
+
+* Added sound effects for button clicks, combat actions, and game outcomes (victory/defeat).
+
+* Fixed bug where buttons were not functioning on initial load due to audio context restrictions.
+
+* **Version 1.0**
+
+* Initial release of the game.
+
+* Includes basic HTML, CSS, and JavaScript.
+
+* Core gameplay loop with navigation, buying items, and fighting monsters.
+
+* Retro-style UI with interactive backgrounds.
+
+### 🤝 Contributing
+
+Contributions are not being accepted at this time. This repository is intended for showcasing and learning purposes. If you encounter any bugs, please report them in the "Issues" section.
+
+### 🧑‍💻 Author
+
+* **Kedar Patil** - [GitHub Profile](https://www.google.com/search?q=https://github.com/kedarop)
