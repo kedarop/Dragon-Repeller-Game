@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dragon Repeller</title>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-gray-800 text-white flex items-center justify-center min-h-screen p-4">
+
+    <!-- Game Container -->
+    <div class="game-container w-full max-w-2xl border-4 border-gray-400 overflow-hidden">
+        <div id="game">
+            <div id="stats" class="shadow-md">
+                <span>
+                    XP: <span id="xpText">0</span>
+                </span>
+                <span>
+                    Health: <span id="healthText">100</span>
+                </span>
+                <span>
+                    Gold: <span id="goldText">50</span>
+                </span>
+            </div>
+            <div id="controls" class="flex flex-col sm:flex-row gap-2 mt-4">
+                <button id="button1" class="flex-1 bg-gray-200 text-black font-bold py-3 px-4 shadow-md hover:bg-gray-400 transition-all duration-100 border-2 border-black">Go to store</button>
+                <button id="button2" class="flex-1 bg-gray-200 text-black font-bold py-3 px-4 shadow-md hover:bg-gray-400 transition-all duration-100 border-2 border-black">Go to cave</button>
+                <button id="button3" class="flex-1 bg-gray-200 text-black font-bold py-3 px-4 shadow-md hover:bg-gray-400 transition-all duration-100 border-2 border-black">Fight dragon</button>
+            </div>
+            <div id="text" class="shadow-inner">
+                Welcome to Dragon Repeller. You must defeat the dragon that is preventing people from leaving the town. You are in the town square. Where do you want to go? Use the buttons above.
+            </div>
+        </div>
+        <div id="screen" class="p-4">
+            <canvas id="background-canvas"></canvas>
+            <div id="battle-scene">
+                <div id="player-area" class="flex flex-col items-center">
+                    <span id="player-emoji" class="character-display">🧑‍🚀</span>
+                    <span id="player-name" class="character-name">You</span>
+                    <div class="health-bar-container">
+                        <div id="player-health-bar" class="health-bar" style="width: 100%;"></div>
+                    </div>
+                </div>
+                <div id="monster-area" class="flex flex-col items-center">
+                    <span id="monster-emoji" class="monster-display">🐉</span>
+                    <span id="monster-name" class="monster-name">Dragon</span>
+                    <div class="health-bar-container">
+                        <div id="monster-health-bar" class="health-bar" style="width: 100%;"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Tone.js library for sound effects -->
+    <script src="https://cdn.jsdelivr.net/npm/tone@14.7.58/build/Tone.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
