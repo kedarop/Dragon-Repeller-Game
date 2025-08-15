@@ -1,6 +1,6 @@
 # Dragon Repeller Game
 
-![GitHub Pages](https://img.shields.io/badge/Hosted%20on-GitHub%20Pages-blue?style=for-the-badge&logo=github)
+![GitHub Pages][(https://img.shields.io/badge/Hosted%20on-GitHub%20Pages-blue?style=for-the-badge&logo=github](https://kedarop.github.io/Dragon-Repeller-Game/))
 ![Version](https://img.shields.io/badge/Version-1.1-brightgreen?style=for-the-badge)
 
 A retro-style text-based RPG where you must defeat the dragon that is terrorizing the town. Navigate through different locations, buy powerful weapons, and fight dangerous monsters to become the hero the town needs.
@@ -9,7 +9,7 @@ A retro-style text-based RPG where you must defeat the dragon that is terrorizin
 
 You can play the latest version of the game directly in your browser by clicking here:
 
-[**▶️ Play Dragon Repeller**](https://www.google.com/search?q=https://kedarop.github.io/Dragon-Repeller-Game/)
+[**▶️ Play Dragon Repeller**](https://kedarop.github.io/Dragon-Repeller-Game/)
 
 *(Note: The URL may take a few minutes to become active after the initial setup on GitHub Pages.)*
 
